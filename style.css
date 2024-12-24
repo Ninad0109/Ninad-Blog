@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url("lake_nature_wallpaper.jpg"); 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+header {
+    background-color: rgb(101, 231, 187, 0.7);
+    border-radius: 8px;
+    margin: 10%;
+    border-top: 10px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 14px 0; 
+    opacity: 0.8; 
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+header.loaded{
+    opacity: 0.96;
+    transform: translateY(0px);
+}
+
+h1 {
+    margin: 0; 
+    
+    text-shadow: 2px 2px 4px #000000;
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
